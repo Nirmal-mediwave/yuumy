@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 235px 0px;
+    background-image: url(../img/leo-roza-P_z_xlMGuEk-unsplash.png);
+    background-color: black;
+    opacity: 60;
+}
+
+.header-content {
+    margin: 0 auto;
+    max-width: 718px;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+}
+
+.header input {
+    max-width: 580px;
+    height: 50px;
+    border-radius: 25px;
+    background-image: url(../img/search.svg);
+}
+
+.nav-wrap {
+    background-color: #fff;
+    border-bottom: 1px solid #00B158;
+}
+
+.nav-group {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94px;
+    height: 33px;
+    text-align: center;
+    border-radius: 33px;
+}
+
+.nav-items p:nth-child(1) {
+    background-color: #00B158;
+    color: #fff;
+}
+
+
+/* .footer {
+    padding: 30px;
+    background-color: rgb(18, 11, 119);
+    color: rgb(255, 255, 255);
+    top: 1000px;
+    left: 20px;
+    width: 2000px;
+    height: 80px;
+}
+
+.lefttext {
+    text-align: center;
+}
+
+last {
+    text-align: center;
+} */
+
+.main-content {
+    margin: auto;
+    width: 80%;
+}
+
+.recipe-text {
+    margin: 20px 0px;
+    font-size: 16px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 20px 50px;
+}
+
+.recipe-text label {
+    display: block;
+    border-radius: 20px 50px;
+}
+
+
+/* .upload {} */
